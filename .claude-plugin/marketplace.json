@@ -1,0 +1,39 @@
+{
+    "name": "mgrubb",
+    "owner": {
+        "name": "Michael Grubb",
+        "email": "mg@grubb.co"
+    },
+    "plugins": [
+        {
+            "name": "agent-skills-golang",
+            "description": "AI Agent Skills for production-ready Go projects",
+            "source": {
+                "source": "github",
+                "repo": "mgrubb/agent-skills-golang"
+            },
+            "author": {
+                "name": "Michael Grubb",
+                "email": "mg@grubb.co"
+            },
+            "originalAuthor": {
+                "name": "Samuel Berthe",
+                "email": "hey@samuel-berthe.fr"
+            },
+            "homepage": "https://github.com/mgrubb/agent-skills-golang",
+            "repository": "https://github.com/mgrubb/agent-skills-golang",
+            "license": "MIT",
+            "keywords": [
+                "claude-code",
+                "claude-code-plugin",
+                "plugin",
+                "golang",
+                "go",
+                "ai-agent",
+                "skills",
+                "agentic"
+            ],
+            "category": "productivity"
+        }
+    ]
+}

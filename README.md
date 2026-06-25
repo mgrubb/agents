@@ -9,8 +9,8 @@ Plugins:
 
 ### Codex
 ```bash
-/plugins marketplace add mgrubb/cc
-/plugins install agent-skills-golang@samber
+codex plugin marketplace add mgrubb/cc
+codex plugin add agent-skills-golang@mgrubb
 ```
 
 ### Claude Code
