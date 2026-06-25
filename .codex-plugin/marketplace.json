@@ -1,38 +1,21 @@
 {
     "name": "mgrubb",
-    "owner": {
-        "name": "Michael Grubb",
-        "email": "mg@grubb.co"
+    "interface": {
+        "displayName": "Michael Grubb's Plugins"
     },
     "plugins": [
         {
             "name": "agent-skills-golang",
             "description": "AI Agent Skills for production-ready Go projects",
             "source": {
-                "source": "github",
-                "repo": "mgrubb/agent-skills-golang"
+                "source": "url",
+                "repo": "https://github.com/mgrubb/agent-skills-golang.git",
+                "ref": "main"
             },
-            "author": {
-                "name": "Michael Grubb",
-                "email": "mg@grubb.co"
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
             },
-            "originalAuthor": {
-                "name": "Samuel Berthe",
-                "email": "hey@samuel-berthe.fr"
-            },
-            "homepage": "https://github.com/mgrubb/agent-skills-golang",
-            "repository": "https://github.com/mgrubb/agent-skills-golang",
-            "license": "MIT",
-            "keywords": [
-                "codex",
-                "codex-plugin",
-                "plugin",
-                "golang",
-                "go",
-                "ai-agent",
-                "skills",
-                "agentic"
-            ],
             "category": "productivity"
         }
     ]
